@@ -16,6 +16,9 @@ dev = [
     "httpx>=0.27.0",
     "pytest>=8.0.0",
 ]
+eval = [
+    "ingredient-parser-nlp==2.7.0",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
